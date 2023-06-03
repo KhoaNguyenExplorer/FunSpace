@@ -7,10 +7,12 @@ if %0% EQU run.bat (
 )
 
 :ENGINE
-IF EXIST "E:\Demo_git\Gen\newfile.txt" (
-    DEL "E:\Demo_git\Gen\newfile.txt"
+IF EXIST "E:\GIT\Khoa_demo\FunSpace\Gen\newfile.txt" (
+    DEL "E:\GIT\Khoa_demo\FunSpace\Gen\newfile.txt"
+    ECHO Deleted old file
 ) ELSE (
-    ECHO hello 1234 >> "E:\Demo_git\Gen\newfile.txt"
+    ECHO hello Khoa >> "E:\GIT\Khoa_demo\FunSpace\Gen\newfile.txt"
+    ECHO Created new file
 )
 
 @REM ECHO newfile created ...
