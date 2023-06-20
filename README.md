@@ -1,5 +1,5 @@
 # FunSpace
-This is where I start exploring my journey after grad, let's see how good it can get.
+This is where I start exploring my journey after grad, let's see how far it can get.
 
 June 04:
 - Tried linking Sourcetree and Git
